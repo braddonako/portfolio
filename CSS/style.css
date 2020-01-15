@@ -124,3 +124,8 @@ nav {
         ;
     }
 }
+
+.intro__img {
+    grid-area: img;
+    min-width: 250px;
+}
