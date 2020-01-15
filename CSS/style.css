@@ -352,7 +352,7 @@ h3 {
 }
 
 /* individual portfolio */
-.portfolio-item-individual {
+.portfolio-item-individual a {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
