@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Brad Donakowski</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+    <!-- I will change these to my own fonts afterwards -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- <button class='nav-toggle' aria-label="toggle navigation">
+                <span class='hamburger'></span>
+            </button>
+                
+            <nav class='nav'>
+                <ul class='nav__list'>
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#work">Brad Donakowski</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">What I do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work" tabindex="-1">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+<!-- Project info -->
+
+    <section class='intro'>
+        <h1 class='section__title section__title--intro'>
+            <strong>Blackjack JavaScript</strong>
+        </h1>
+        <!-- <p class="section__subtitle section__subtitle--intro">front-end developer</p> -->
+        <img src='blackjack.png' alt='Blackjack project' class="intro__img">
+    </section>
+
+    <div class='portfolio-item-individual'>
+        <p>The technologies used to create this game were HTML, CSS, jQuery and vanilla JavaScript. The reason behind this project was because I really enjoy playing blackjack. I use to play a game online called Hit or Stand, and always thought it would be amazing to create my own Blackjack game. One of the more difficult tasks of this project was thinking of the logic behind when the dealers and player were dealt cards. I struggled on how the dealer can automatically hit when a player decided to stand, and then letting the player know if they won the game or not. This was my first project, and I am really happy with the progress I have made sense then.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class='footer'>
+        <a href='mailto:braddonakowski@yahoo.com' class='footer-link'>braddonakowski@yahoo.com</a>
+        <ul class='social-list'>
+            <li class='social-list__item'>
+                <a class='social-list__link' href='https://www.linkedin.com/in/braddonakowski/'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class='social-list__item'>
+                <a class='social-list__link' href='https://www.github.com/braddonako/'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
