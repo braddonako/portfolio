@@ -68,7 +68,6 @@ strong {
 }
 
 /* button */
-
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
@@ -78,11 +77,12 @@ strong {
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
+    letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.1);
 }
 
@@ -139,8 +139,46 @@ h3 {
 
 /* header */
 
-nav {
-    display: none;
+.nav {
+    position: fixed;
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    color: inherit;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h2);
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: var(--clr-accent);
 }
 
 
